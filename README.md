@@ -1,24 +1,21 @@
 # Weryfikacja Płatnika VAT
 
 [![N|Solid](http://ggawronski.pl/Image.jpeg)](https://ggawronski.pl)
-
+# Instrukcja obsługi programu
 1. Adres www: ggawronski.pl/vat
 2. Naciskamy ikonkę pod napisem Dodaj Plik Excel:
 3. Wybieramy plik z rozszerzeniem.csv
-
-==== Instrukcja - Przygotowanie pliku.csv ====
+4. Po dodaniu pliku CSV z numerami NIP proszę o chwilę cierpliwości, postęp sprawdzania na razie można zaobserwować poprzez scrollbar, który zacznie się wydłużać
+5. Wyniki zostaną wyświetlone na stronie
+# Instrukcja - Przygotowanie pliku.csv
  1. Edycja kolumn początkowych bez spacji:
             Przykład: Jednostka gosp. --> Jednostka_gosp.
  2. Edycja kolumny z numerami NIP:
-            Przykład: Prawidłowo: PL7590005082
-                      Nieprawidłowo: 1646027030
-                      Pominięte zostaną: brak, [spacje], i wszystkie numery bez krajów
+- Przykład: Prawidłowo: PL7590005082
+- Nieprawidłowo: 1646027030
+- Pominięte zostaną: brak, [spacje], i wszystkie numery bez krajów
 3. Plik --> Zapisz, jako... --> Wszystkie formaty (rozwinąć) --> Tekst CSV (.csv) --> Zapisz
-4. Tak przygotowany plik można już dodać w punkcie 2 głównej instrukcji obsługi programu
-4.Po dodaniu pliku CSV z numerami NIP proszę o chwilę cierpliwości, postęp sprawdzania na razie można 
-Zaobserwować poprzez scrollbar, który zacznie się wydłużać
-5.Wyniki zostaną wyświetlone na stronie
-
+4. Tak przygotowany plik można już dodać w punkcie 2 instrukcji obsługi programu
 
 # New Features!
 Wersja 1.0
